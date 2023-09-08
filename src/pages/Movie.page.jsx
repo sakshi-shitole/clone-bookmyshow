@@ -123,7 +123,7 @@ const Moviepage = () => {
         <>
             <MovieHero />
 
-            <div className='my-12 container px-4 lg-ml-20 lg:w-2/3'>
+            <div className='my-12 container px-4 lg-ml-20 lg:w-2/3 window.scrollTo(0, 0)'>
                 <div className='flex flex-col items-start gap-3'>
                     <h1 className='text-gray-800 font-bold text-2xl'>About the movie</h1>
                     <p>{movie.overview}</p>
