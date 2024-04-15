@@ -51,7 +51,7 @@ const Moviepage = () => {
             setMovie(getMovieData.data);
         };
         requestMovie();
-    }, [id]);
+    },);
     const settingCast = {
         infinite: false,
         speed: 500,
@@ -102,7 +102,7 @@ const Moviepage = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 2,
                     initialSlide: 3,
                 }
@@ -111,8 +111,8 @@ const Moviepage = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
-                    initialSlide: 4,
+                    slidesToScroll: 2,
+                    initialSlide: 3,
                 }
             },
 

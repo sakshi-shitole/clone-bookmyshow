@@ -7,7 +7,7 @@ const EntertainmentCard = (props) => {
             <div className='w-full h-30 px-2'>
                 <img className='w-full h-full rounded-lg'
                     src={props.src}
-                    atl="entertainment"
+                    alt="entertainment"
                 />
             </div>
         </>
@@ -28,6 +28,7 @@ const EntertainmentCardSlider = () => {
         "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300/art-and-crafts-collection-202007220710.png",
         "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300/theatre-shows-collection-202012041128.png",
         "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300/adventure-collection-202010140844.png",
+
     ];
 
     const settings = {

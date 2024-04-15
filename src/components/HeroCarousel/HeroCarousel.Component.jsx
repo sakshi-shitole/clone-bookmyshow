@@ -36,18 +36,19 @@ const HeroCarousel = () => {
         video: false,
         vote_average: 7.4,
         vote_count: 346,
-    },]);
+    },
+
+    ])
 
     const settingsLG = {
         arrows: true,
         slidesToShow: 1,
         infinite: true,
-        speed: 500,
+        speed: 2000,
         slideToScroll: 1,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         autoplay: true,
-        speed: 2000,
         autoplaySpeed: 4000,
         cssEase: "linear",
     };
@@ -86,7 +87,7 @@ const HeroCarousel = () => {
                             <div className=" w-full h-96 px-2 py-3" key={index}>
                                 <img src={`https://image.tmdb.org/t/p/original${images.backdrop_path}`}
                                     alt="Hero Banner"
-                                    className="w-full h-full rounded-md object-cover"
+                                    className="w-full h-full rounded-md object-fill"
                                 />
                             </div>
                         ))
